@@ -11,7 +11,7 @@ A deep learning system developed using TensorFlow and Python to recognize facial
 - Handling of an underrepresented Disgust class due to limited samples
 - Progressive fine-tuning through layer unfreezing
 - Hyperparameter tuning including batch size and learning rate
-- Final test accuracy of 65% on the FER2013 test set
+- Final test accuracy of 65% on the FER2013 test set (using the VGG19 models)
 
 ## Technologies
 
@@ -31,7 +31,7 @@ A deep learning system developed using TensorFlow and Python to recognize facial
 ## My Contribution
 
 - Developed and evaluated a custom CNN model for facial emotion recognition, achieving approximately 60% test accuracy.
-- Compared the custom CNN with a VGG19 transfer learning model developed by a team member, then selected the VGG19 model for further optimization and fine-tuning.
+- Compared my custom CNN with a VGG19 transfer learning model developed by a team member, then selected the VGG19 model for further optimization and fine-tuning.
 - Replaced offline augmentation with online augmentation to increase training data variability without creating additional image instances.
 - Identified and removed duplicate images using image hash value comparison to improve dataset quality.
 - Performed progressive fine-tuning by first unfreezing deeper VGG19 layers and subsequently unfreezing all convolutional blocks, using a smaller learning rate for further training.
